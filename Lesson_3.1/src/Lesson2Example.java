@@ -23,6 +23,5 @@ public class Lesson2Example {
         final char testValue2 = 'q';
         System.out.println(testValue2);
 
-        testValue2 = 'w';
     }
 }
