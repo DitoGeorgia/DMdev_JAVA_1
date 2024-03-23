@@ -19,9 +19,8 @@ public class Task4 {
             int value = new Scanner(System.in).nextInt();
             if (value % 400 == 0 || (value % 100 != 0 && value % 4 == 0)) {
                 System.out.println("Год высокосный");
-            } else {
+            } else
                 System.out.println("Год не высокосный");
-            }
         }
     }
 }
